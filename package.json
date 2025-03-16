@@ -2,7 +2,7 @@
   "name": "typed-trail",
   "version": "0.0.1",
   "description": "A generic REST API client that can be easily typed with TypeScript",
-  "main": "index.ts",
+  "main": "./src/index.ts",
   "scripts": {
     "test": "jest"
   },
