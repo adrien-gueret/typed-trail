@@ -1,11 +1,27 @@
 {
   "name": "typed-trail",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A generic REST API client that can be easily typed with TypeScript",
-  "main": "./src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "jest"
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adrien-gueret/typed-trail.git"
+  },
+  "keywords": [
+    "typescript",
+    "rest",
+    "api",
+    "client"
+  ],
   "author": "Adrien Guéret",
   "license": "ISC",
   "devDependencies": {
